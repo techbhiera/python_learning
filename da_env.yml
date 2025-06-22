@@ -1,0 +1,24 @@
+name: dataanalysis2.0
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - openpyxl
+  - ipykernel
+  - plotly
+  - bokeh
+  - pip
+  - pip:
+      - prophet
+      - pingouin
+
