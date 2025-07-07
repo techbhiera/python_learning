@@ -1,6 +1,6 @@
 while True:
     marks = input("enter your marks:")
-    if marks.isdigit() and int(marks) >= 0 :
+    if marks.isdigit() and 101 >int(marks) >= 0 :
         print("thanks for entered marks")
         break
     else:
