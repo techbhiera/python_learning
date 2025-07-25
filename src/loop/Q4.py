@@ -13,7 +13,6 @@ print(reversed_text)
 
 
 
-
 text = input("Write the string")
 reversed_text = ""
 for char in text:

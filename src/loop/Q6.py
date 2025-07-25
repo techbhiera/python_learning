@@ -1,6 +1,6 @@
 factorial=int(input("give the number"))
 factor=1
-for i in range (factorial,1,-1): # you can keep range(start,end "1,0"both ,step) --------->>>> (5! = 5*4*3*2 or 5*4*3*2*1)'''
+for i in range (factorial,1,-1): # you can keep range(start,"end1,0",step) --------->>>> (5! = 5*4*3*2 or 5*4*3*2*1)'''
     factor *= i
 print(f"{factorial}! is ",factor)
 
