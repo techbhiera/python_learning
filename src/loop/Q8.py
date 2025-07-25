@@ -36,13 +36,13 @@ def prime_number(n):
 prime_num= float(input("Write the prime number"))
 
 if prime_number(prime_num):
-    print("prime number")
+    print("The given number is a prime number",prime_num)
 else:
-    print("not prime number")
+    print("The given number is not a prime number", prime_num)
 
 
 
-            
+        
             
         
         
