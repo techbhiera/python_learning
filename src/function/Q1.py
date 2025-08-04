@@ -1,7 +1,10 @@
-def square(number):
-    square_num= number**2
-    print(square_num)
+
+
+def square(n):
+    return n**2
 
 
 
-square(5)
+
+square_input=int(input("Write the number that you want to square:"))
+print(square(square_input))
